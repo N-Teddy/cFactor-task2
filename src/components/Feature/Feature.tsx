@@ -15,7 +15,7 @@ const Feature: React.FC<FeatureProps> = ({index, icon, title, description}) => {
     return (
         <div
             style={{
-                backgroundColor: theme === "dark" ? "#2d314d" : "#fff",
+                backgroundColor: theme === "dark" ? "#2d314d" : "",
                 color: theme === "dark" ? "#fff" : "#6a7282 "
             }}
             key={index} className="text-center md:text-left"

@@ -18,9 +18,8 @@ body {
 }
 
 @layer components {
-  .nav-link {
-      border-bottom: 2px solid white;
 
+  .nav-link {
       &:hover {
         border-bottom: 4px solid #33D35E;
     }
@@ -33,6 +32,10 @@ body {
     &:hover {
       color: #33D35E;
     }
+  }
+
+  .transparent-bg {
+    background: rgba(0, 0, 0, 0.5);
   }
 
 }
