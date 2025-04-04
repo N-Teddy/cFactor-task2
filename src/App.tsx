@@ -21,7 +21,7 @@ function App() {
                     backgroundColor: theme === "dark" ? "#2d314d" : "#fff",
                     color: theme === "dark" ? "#fff" : "#6a7282"
                 }}
-                className="relative overflow-hidden bg-very-light-gray pt-28 md:pt-0 px-5 sm:px-6 lg:px-[8%] 2xl:px-[130px]"
+                className="relative bg-very-light-gray pt-28 md:pt-0 px-5 sm:px-6 lg:px-[8%] 2xl:px-[130px]"
             >
                 {/* Mobile background images */}
                 <div className="md:hidden relative -mx-5">

@@ -59,7 +59,7 @@ const Header = () => {
                             <a
                                 key={item}
                                 href="#"
-                                className="nav-link relative h-full flex items-center px-4 transition-colors duration-200 whitespace-nowrap"
+                                className="nav-link relative h-full flex items-center px-4  whitespace-nowrap"
                             >
                                 <span>{item}</span>
                             </a>
